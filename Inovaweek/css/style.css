@@ -6775,7 +6775,7 @@ ul.side-nav.leftside-navigation li:not(.no-padding) a {
 }
 
 ul.side-nav.leftside-navigation li:not(.no-padding).user-details {
-  background: url("../../images/gallary/12.png") no-repeat center center;
+  background: url("../../images/gallary/24.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7642,4 +7642,17 @@ Footer
 .informacoes{
   font-size: 20px;
   margin-top: -20px;
+}
+
+#ranking{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+#estrela{
+  color: #f9c922;
+}
+
+#card{
+  border-radius: 10px;
 }
