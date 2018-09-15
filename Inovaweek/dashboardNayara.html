@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
+    <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+    <title>Union</title>
+    <!-- Favicons-->
+    <link rel="icon" href="images/favicon/favicon-link.png" sizes="32x32">
+    <!-- Favicons-->
+    <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#00bcd4">
+    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+    <!-- For Windows Phone -->
+    <!-- CORE CSS-->
+    <link href="css//materialize.css" type="text/css" rel="stylesheet">
+    <link href="css//style.css" type="text/css" rel="stylesheet">
+    <!-- Custome CSS-->
+    <link href="css/custom/custom.css" type="text/css" rel="stylesheet">
+    <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+    <link href="vendors/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet">
+    <link href="vendors/flag-icon/css/flag-icon.min.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>    
+    <!-- START HEADER -->
+    <header id="header" class="page-topbar">
+        <!-- start header nav-->
+        <div class="navbar-fixed">
+            <nav class="navbar-color black">
+                <div class="nav-wrapper">
+                    <ul class="left">
+                        <li>
+                            <h1 class="logo-wrapper">
+                                <a href="#" class="brand-logo darken-1">
+                                    <img src="images/logo/logo-union.png" alt="materialize logo">
+                                    <span class="logo-text hide-on-med-and-down"></span>
+                                </a>
+                            </h1>
+                        </li>
+                    </ul>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="javascript:void(0);" class="waves-effect waves-block waves-light notification-button" data-activates="notifications-dropdown">
+                                <i class="material-icons">notifications_none
+                                    <small class="notification-badge purple darken-4">10</small>
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="waves-effect waves-block waves-light profile-button" data-activates="profile-dropdown">
+                                <span class="avatar-status avatar-online">
+                                    <img src="images/Nayara.jpg" alt="avatar">
+                                    <i></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-activates="chat-out" class="waves-effect waves-block waves-light chat-collapse">
+                                <i class="material-icons">format_indent_increase</i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- notifications-dropdown -->
+                    <ul id="notifications-dropdown" class="dropdown-content">
+                        <li>
+                            <h6>Notificações
+                                <span class="new badge purple darken-4">8</span>
+                            </h6>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#!" class="grey-text text-darken-2">
+                                <span class="material-icons icon-bg-circle pink darken-4 small">code</span> Novo feed sobre HTML5
+                                disponível!</a>
+                                <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">3 dias atrás</time>
+                            </li>
+                            <li>
+                                <a href="#!" class="grey-text text-darken-2">
+                                    <span class="material-icons icon-bg-circle orange darken-4 small">stars</span> Conteúdo sobre CSS3 divulgado.</a>
+                                    <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">3 dias atrás</time>
+                                </li>
+                                <li>
+                                    <a href="#!" class="grey-text text-darken-2">
+                                        <span class="material-icons icon-bg-circle  light-green accent-4 small">stars</span> Conteúdo sobre javascript divulgado.</a>
+                                        <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">3 dias atrás</time>
+                                    </li>        <li>
+                                        <a href="#!" class="grey-text text-darken-2">
+                                            <span class="material-icons icon-bg-circle green darken-4 small">stars</span> Conteúdo sobre C# divulgado.</a>
+                                            <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">3 dias atrás</time>
+                                        </li>
+                                        <li>
+                                            <a href="#!" class="grey-text text-darken-2">
+                                                <span class="material-icons icon-bg-circle  light-blue darken-4 small">stars</span> Conteúdo sobre Mysql divulgado.</a>
+                                                <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">3 dias atrás</time>
+                                            </li>
+                                <li>
+                                    <a href="#!" class="grey-text text-darken-2">
+                                        <span class="material-icons icon-bg-circle indigo darken-4 small">settings</span> Configurações do aplicativos
+                                        atualizadas.</a>
+                                        <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">10 dias atrás</time>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="grey-text text-darken-2">
+                                            <span class="material-icons icon-bg-circle teal darken-4 small">card_travel</span> Inicio do
+                                            curso de Big Data.</a>
+                                            <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">3 dias atrás</time>
+                                        </li>
+                                        <li>
+                                            <a href="#!" class="grey-text text-darken-2">
+                                                <span class="material-icons icon-bg-circle black small">done_all</span> Seus interesses foram
+                                                atualizados.</a>
+                                                <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">1 semana atrás</time>
+                                            </li>
+                                        </ul>
+                                        <!-- profile-dropdown -->
+                                        <ul id="profile-dropdown" class="dropdown-content">
+                                            <li>
+                                                <a href="file:///E:/2018-2/html5/inova/perfilNayara.html" class="grey-text text-darken-1">
+                                                    <i class="material-icons">face</i> Perfil</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="grey-text text-darken-1">
+                                                        <i class="material-icons">settings</i> Configurações</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="grey-text text-darken-1">
+                                                            <i class="material-icons">live_help</i> Ajuda</a>
+                                                        </li>
+                                                        <li class="divider"></li>
+                                                        <li>
+                                                            <a href="#" class="grey-text text-darken-1">
+                                                                <i class="material-icons">keyboard_tab</i> Sair </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </nav>
+                                            </div>
+                                      
+                                        </header>
+                                        <!-- END HEADER -->
+                                        <!-- //////////////////////////////////////////////////////////////////////////// -->
+                                        <!-- START MAIN -->
+                                        <div id="main">
+                                            <!-- START WRAPPER -->
+                                            <div class="wrapper">
+                                                <!-- START LEFT SIDEBAR NAV-->
+                                                <aside id="left-sidebar-nav">
+                                                    <ul id="slide-out" class="side-nav fixed leftside-navigation">
+                                                        <li class="user-details cyan darken-2">
+                                                            <div class="row">
+                                                                <div class="col col s4 m4 l4">
+                                                                    <img src="images/Nayara.jpg" alt="" class="circle responsive-img valign profile-image cyan">
+                                                                </div>
+                                                                <div class="col col s8 m8 l8">
+                                                                    <ul id="profile-dropdown-nav" class="dropdown-content">
+                                                                        <li>
+                                                                            <a href="perfilNayara.html" class="grey-text text-darken-1">
+                                                                                <i class="material-icons">face</i> Perfil</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" class="grey-text text-darken-1">
+                                                                                    <i class="material-icons">settings</i> Configurações</a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="#" class="grey-text text-darken-1">
+                                                                                        <i class="material-icons">live_help</i> Ajuda</a>
+                                                                                    </li>
+                                                                                    <li class="divider"></li>                                   
+                                                                                    <li>
+                                                                                        <a href="#" class="grey-text text-darken-1">
+                                                                                            <i class="material-icons">keyboard_tab</i> Sair</a>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                    <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#" data-activates="profile-dropdown-nav">Nayara Dias<i class="mdi-navigation-arrow-drop-down right"></i></a>
+                                                                                    <p class="user-roal">nayaradias167@gmail.com</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="no-padding">
+                                                                            <ul class="collapsible" data-collapsible="accordion">
+                                                                                <li class="bold">
+                                                                                    <a href="dashboardNayara.html" class="waves-effect waves-cyan">
+                                                                                        <i class="material-icons">dashboard</i>
+                                                                                        <span class="nav-text">Dashboard</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="bold">
+                                                                                    <a href="perfilNayara.html" class="waves-effect waves-cyan">
+                                                                                        <i class="material-icons">face</i>
+                                                                                        <span class="nav-text">Perfil</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="bold">
+                                                                                    <a href="#" class="waves-effect waves-cyan">
+                                                                                        <i class="material-icons">rss_feed</i>
+                                                                                        <span class="nav-text">Feed</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="bold">
+                                                                                    <a href="#" class="waves-effect waves-cyan">
+                                                                                        <i class="material-icons">star_rate</i>
+                                                                                        <span class="nav-text">Ranking</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="bold">
+                                                                                    <a href="#" class="waves-effect waves-cyan">
+                                                                                        <i class="material-icons">school</i>
+                                                                                        <span class="nav-text">Certificações</span>
+                                                                                    </a>
+                                                                                </li>                                                                                
+                                                                            </ul>
+                                                                        </li>
+                                                                    </ul>
+                                                                    <a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only">
+                                                                        <i class="material-icons">menu</i>
+                                                                    </a>
+                                                                </aside>
+                                                                <!-- END LEFT SIDEBAR NAV-->
+                                                                <!-- START CONTENT -->
+                                                                <section id="content">            
+                                                                    <div class="container">                    
+                                                                        <!--card widgets end-->                                                                        
+                                                                        <div class="row">
+                                                                            <div class="col s12 m12 l6">                                                                                    
+                                                                                <div class="card-panel">
+                                                                                    <h5><b>Conhecimentos Atuais</b></h5>
+                                                                                    <canvas id="myChart" width="300" height="100"></canvas>
+                                                                                </div>                                                                                                                        
+                                                                            </div>
+                                                                            <div class="col s12 m12 l6">
+                                                                                <div class="card-panel">
+                                                                                    <h5><b>Progressos</b></h5>
+                                                                                    <canvas id="lineChart" width="300" height="100"></canvas>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>                                                             
+                                                                        
+                                                                        <!--work collections start-->
+                                                                        <div id="work-collections">
+                                                                            <div class="row">
+                                                                                <div class="col s12 m12 l6">
+                                                                                    <ul id="projects-collection" class="collection z-depth-1">
+                                                                                        <li class="collection-item avatar">
+                                                                                            <i class="material-icons  deep-purple darken-4 circle">card_travel</i>
+                                                                                            <h6 class="collection-header m-0">Meus Projetos</h6>
+                                                                                            <p>Concluídos e em andamento</p>                                                                                                                                            
+                                                                                        </li>
+                                                                                        <li class="collection-item">
+                                                                                            <div class="row">
+                                                                                                <div class="col s9">
+                                                                                                    <p class="collections-title">Portifólio Pessoal</p>
+                                                                                                    <p class="collections-content">Aula: HTML5 UVV</p>
+                                                                                                </div>
+                                                                                                <div class="col s3">
+                                                                                                    <span class="task-cat green">Concluído</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </li>
+                                                                                        <li class="collection-item">
+                                                                                            <div class="row">
+                                                                                                <div class="col s9">
+                                                                                                    <p class="collections-title">Jogos em JavaScript</p>
+                                                                                                    <p class="collections-content">Aula: HTML5 UVV</p>
+                                                                                                </div>
+                                                                                                <div class="col s3">
+                                                                                                    <span class="task-cat green">Concluído</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </li>
+                                                                                        <li class="collection-item">
+                                                                                            <div class="row">
+                                                                                                <div class="col s9">
+                                                                                                    <p class="collections-title">Projeto Final</p>
+                                                                                                    <p class="collections-content">Aula: HTML5 UVV</p>
+                                                                                                </div>
+                                                                                                <div class="col s3">
+                                                                                                    <span class="task-cat red darken-4">Em andamento</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </li>
+                                                                                        <li class="collection-item">
+                                                                                            <div class="row">
+                                                                                                <div class="col s9">
+                                                                                                    <p class="collections-title">Projeto Union Inovaweek</p>
+                                                                                                    <p class="collections-content">Inovaweek UVV</p>
+                                                                                                </div>
+                                                                                                <div class="col s3">
+                                                                                                    <span class="task-cat red darken-4">Em andamento</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </li>
+                                                                                  
+                                                                                    </ul>
+                                                                                </div>
+                                                                                <div class="col s12 m12 l6">
+                                                                                    <ul id="issues-collection" class="collection z-depth-1">
+                                                                                        <li class="collection-item avatar">
+                                                                                            <i class="material-icons  teal darken-4 circle">group_work</i>
+                                                                                            <h6 class="collection-header m-0">Comunidades</h6>
+                                                                                            <p>Relacionadas à você</p>
+                                                                                        </li>
+                                                                                        <li class="collection-item">
+                                                                                            <div class="row">
+                                                                                                <div class="col s7">
+                                                                                                    <p class="collections-title">
+                                                                                                        <strong>#JavaScript</strong> Amantes da Programação WEB</p>
+                                                                                                        <p class="collections-content">Web Project</p>
+                                                                                                    </div>
+                                                                                                    <div class="col s2">
+                                                                                                        <span class="task-cat red darken-2">JavaScript</span>
+                                                                                                    </div>                                                                                                   
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li class="collection-item">
+                                                                                                <div class="row">
+                                                                                                    <div class="col s7">
+                                                                                                        <p class="collections-title">
+                                                                                                            <strong>#Construção de</strong> API's</p>
+                                                                                                            <p class="collections-content">API Project </p>
+                                                                                                        </div>
+                                                                                                        <div class="col s2">
+                                                                                                            <span class="task-cat  purple darken-1">C#</span>
+                                                                                                        </div>                                                                                                        
+                                                                                                    </div>
+                                                                                                </li>
+                                                                                                <li class="collection-item">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col s7">
+                                                                                                            <p class="collections-title">
+                                                                                                                <strong>#Criação de Páginas</strong> HTML5, CSS3, JAVASCRIPT</p>
+                                                                                                                <p class="collections-content">Web Project </p>
+                                                                                                            </div>
+                                                                                                            <div class="col s2">
+                                                                                                                <span class="task-cat yellow accent-3">WEB</span>
+                                                                                                            </div>                                                                                                           
+                                                                                                        </div>
+                                                                                                    </li>
+                                                                                                    <li class="collection-item">
+                                                                                                        <div class="row">
+                                                                                                            <div class="col s7">
+                                                                                                                <p class="collections-title">
+                                                                                                                    <strong>#Programação</strong> Mobile</p>
+                                                                                                                    <p class="collections-content">Mobile Project</p>
+                                                                                                                </div>
+                                                                                                                <div class="col s2">
+                                                                                                                    <span class="task-cat  light-green accent-4">Android</span>
+                                                                                                                </div>                                                                                                               
+                                                                                                            </div>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <!--work collections end-->
+                                                                                        
+                                                                                        <!-- //////////////////////////////////////////////////////////////////////////// -->
+                                                                                    </div>
+                                                                                    <!--end container-->
+                                                                                </section>
+                                                                                <!-- END CONTENT -->
+                                                                                <!-- START RIGHT SIDEBAR NAV-->
+                                                                                <aside id="right-sidebar-nav">
+                                                                                    <ul id="chat-out" class="side-nav rightside-navigation">
+                                                                                        <li class="li-hover">
+                                                                                            <div class="row">
+                                                                                                <div class="col s12 border-bottom-1 mt-5">
+                                                                                                    <ul class="tabs">
+                                                                                                        <li class="tab col s4">
+                                                                                                            <a href="#activity" class="active">
+                                                                                                                <span class="material-icons">graphic_eq</span>
+                                                                                                            </a>
+                                                                                                        </li>
+                                                                                                        <li class="tab col s4">
+                                                                                                            <a href="#chatapp">
+                                                                                                                <span class="material-icons">face</span>
+                                                                                                            </a>
+                                                                                                        </li>
+                                                                                                        <li class="tab col s4">
+                                                                                                            <a href="#settings">
+                                                                                                                <span class="material-icons">settings</span>
+                                                                                                            </a>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                                <div id="settings" class="col s12">
+                                                                                                    <h6 class="mt-5 mb-3 ml-3">Configurações Gerais</h6>
+                                                                                                    <ul class="collection border-none">
+                                                                                                        <li class="collection-item border-none">
+                                                                                                            <div class="m-0">
+                                                                                                                <span class="font-weight-600">Notificações</span>
+                                                                                                                <div class="switch right">
+                                                                                                                    <label>
+                                                                                                                        <input checked type="checkbox">
+                                                                                                                        <span class="lever"></span>
+                                                                                                                    </label>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <p>Use checkboxes when looking for yes or no answers.</p>
+                                                                                                        </li>
+                                                                                                        <li class="collection-item border-none">
+                                                                                                            <div class="m-0">
+                                                                                                                <span class="font-weight-600">Show recent activity</span>
+                                                                                                                <div class="switch right">
+                                                                                                                    <label>
+                                                                                                                        <input checked type="checkbox">
+                                                                                                                        <span class="lever"></span>
+                                                                                                                    </label>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <p>The for attribute is necessary to bind our custom checkbox with the input.</p>
+                                                                                                        </li>
+                                                                                                        <li class="collection-item border-none">
+                                                                                                            <div class="m-0">
+                                                                                                                <span class="font-weight-600">Notifications</span>
+                                                                                                                <div class="switch right">
+                                                                                                                    <label>
+                                                                                                                        <input type="checkbox">
+                                                                                                                        <span class="lever"></span>
+                                                                                                                    </label>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <p>Use checkboxes when looking for yes or no answers.</p>
+                                                                                                        </li>
+                                                                                                        <li class="collection-item border-none">
+                                                                                                            <div class="m-0">
+                                                                                                                <span class="font-weight-600">Show recent activity</span>
+                                                                                                                <div class="switch right">
+                                                                                                                    <label>
+                                                                                                                        <input type="checkbox">
+                                                                                                                        <span class="lever"></span>
+                                                                                                                    </label>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <p>The for attribute is necessary to bind our custom checkbox with the input.</p>
+                                                                                                        </li>
+                                                                                                        <li class="collection-item border-none">
+                                                                                                            <div class="m-0">
+                                                                                                                <span class="font-weight-600">Show your emails</span>
+                                                                                                                <div class="switch right">
+                                                                                                                    <label>
+                                                                                                                        <input type="checkbox">
+                                                                                                                        <span class="lever"></span>
+                                                                                                                    </label>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <p>Use checkboxes when looking for yes or no answers.</p>
+                                                                                                        </li>
+                                                                                                        <li class="collection-item border-none">
+                                                                                                            <div class="m-0">
+                                                                                                                <span class="font-weight-600">Show Task statistics</span>
+                                                                                                                <div class="switch right">
+                                                                                                                    <label>
+                                                                                                                        <input type="checkbox">
+                                                                                                                        <span class="lever"></span>
+                                                                                                                    </label>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <p>The for attribute is necessary to bind our custom checkbox with the input.</p>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </div>
+                                                                                                <div id="chatapp" class="col s12">
+                                                                                                    <div class="collection border-none">
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/julia.jpg" alt="" class="circle cyan">
+                                                                                                            <span class="line-height-0">Júlia rizzi </span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">5.00 AM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Thank you </p>
+                                                                                                        </a>
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/Leonardo.jpg" alt="" class="circle deep-orange accent-2">
+                                                                                                            <span class="line-height-0">Leonardo Costa </span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">4.14 AM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Hello Boo </p>
+                                                                                                        </a>
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/vinicius.jpg" alt="" class="circle teal accent-4">
+                                                                                                            <span class="line-height-0">Marcos Viniciús </span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">9.00 PM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Keny ! </p>
+                                                                                                        </a>
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/bruno.jpg" alt="" class="circle cyan">
+                                                                                                            <span class="line-height-0">Bruno Bonadiman</span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">4.14 AM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Ohh God </p>
+                                                                                                        </a>
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/avatar/avatar-5.png" alt="" class="circle red accent-2">
+                                                                                                            <span class="line-height-0">Edward Fletcher </span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">5.15 PM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Love you </p>
+                                                                                                        </a>
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/avatar/avatar-6.png" alt="" class="circle deep-orange accent-2">
+                                                                                                            <span class="line-height-0">Crystal Bates </span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">8.00 AM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Can we </p>
+                                                                                                        </a>
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/avatar/avatar-7.png" alt="" class="circle cyan">
+                                                                                                            <span class="line-height-0">Nathan Watts </span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">9.53 PM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Great! </p>
+                                                                                                        </a>
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/avatar/avatar-8.png" alt="" class="circle red accent-2">
+                                                                                                            <span class="line-height-0">Willard Wood </span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">4.20 AM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Do it </p>
+                                                                                                        </a>
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/avatar/avatar-9.png" alt="" class="circle teal accent-4">
+                                                                                                            <span class="line-height-0">Ronnie Ellis </span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">5.30 PM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Got that </p>
+                                                                                                        </a>
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/avatar/avatar-1.png" alt="" class="circle cyan">
+                                                                                                            <span class="line-height-0">Gwendolyn Wood </span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">4.34 AM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Like you </p>
+                                                                                                        </a>
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/avatar/avatar-2.png" alt="" class="circle red accent-2">
+                                                                                                            <span class="line-height-0">Daniel Russell </span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">12.00 AM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Thank you </p>
+                                                                                                        </a>
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/avatar/avatar-3.png" alt="" class="circle teal accent-4">
+                                                                                                            <span class="line-height-0">Sarah Graves </span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">11.14 PM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Okay you </p>
+                                                                                                        </a>
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/avatar/avatar-4.png" alt="" class="circle red accent-2">
+                                                                                                            <span class="line-height-0">Andrew Hoffman </span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">7.30 PM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Can do </p>
+                                                                                                        </a>
+                                                                                                        <a href="#!" class="collection-item avatar border-none">
+                                                                                                            <img src="images/avatar/avatar-5.png" alt="" class="circle cyan">
+                                                                                                            <span class="line-height-0">Camila Lynch </span>
+                                                                                                            <span class="medium-small right blue-grey-text text-lighten-3">2.00 PM</span>
+                                                                                                            <p class="medium-small blue-grey-text text-lighten-3">Leave it </p>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div id="activity" class="col s12">
+                                                                                                    <h6 class="mt-5 mb-3 ml-3">RECENT ACTIVITY</h6>
+                                                                                                    <div class="activity">
+                                                                                                        <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                                                                                                            <i class="material-icons white-text icon-bg-color deep-purple lighten-2">add_shopping_cart</i>
+                                                                                                        </div>
+                                                                                                        <div class="col s9 recent-activity-list-text">
+                                                                                                            <a href="#" class="deep-purple-text medium-small">just now</a>
+                                                                                                            <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Jim Doe Purchased
+                                                                                                                new equipments for zonal office.</p>
+                                                                                                            </div>
+                                                                                                            <div class="recent-activity-list chat-out-list row mb-0">
+                                                                                                                <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                                                                                                                    <i class="material-icons white-text icon-bg-color cyan lighten-2">airplanemode_active</i>
+                                                                                                                </div>
+                                                                                                                <div class="col s9 recent-activity-list-text">
+                                                                                                                    <a href="#" class="cyan-text medium-small">Yesterday</a>
+                                                                                                                    <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Your Next
+                                                                                                                        flight for USA will be on 15th August 2015.</p>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                                <div class="recent-activity-list chat-out-list row mb-0">
+                                                                                                                    <div class="col s3 mt-2 center-align recent-activity-list-icon medium-small">
+                                                                                                                        <i class="material-icons white-text icon-bg-color green lighten-2">settings_voice</i>
+                                                                                                                    </div>
+                                                                                                                    <div class="col s9 recent-activity-list-text">
+                                                                                                                        <a href="#" class="green-text medium-small">5 Days Ago</a>
+                                                                                                                        <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Natalya Parker
+                                                                                                                            Send you a voice mail for next conference.</p>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <div class="recent-activity-list chat-out-list row mb-0">
+                                                                                                                        <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                                                                                                                            <i class="material-icons white-text icon-bg-color amber lighten-2">store</i>
+                                                                                                                        </div>
+                                                                                                                        <div class="col s9 recent-activity-list-text">
+                                                                                                                            <a href="#" class="amber-text medium-small">1 Week Ago</a>
+                                                                                                                            <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Jessy Jay
+                                                                                                                                open a new store at S.G Road.</p>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                        <div class="recent-activity-list row">
+                                                                                                                            <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                                                                                                                                <i class="material-icons white-text icon-bg-color deep-orange lighten-2">settings_voice</i>
+                                                                                                                            </div>
+                                                                                                                            <div class="col s9 recent-activity-list-text">
+                                                                                                                                <a href="#" class="deep-orange-text medium-small">2 Week Ago</a>
+                                                                                                                                <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">voice mail
+                                                                                                                                    for conference.</p>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                            <div class="recent-activity-list chat-out-list row mb-0">
+                                                                                                                                <div class="col s3 mt-2 center-align recent-activity-list-icon medium-small">
+                                                                                                                                    <i class="material-icons white-text icon-bg-color brown lighten-2">settings_voice</i>
+                                                                                                                                </div>
+                                                                                                                                <div class="col s9 recent-activity-list-text">
+                                                                                                                                    <a href="#" class="brown-text medium-small">1 Month Ago</a>
+                                                                                                                                    <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Natalya Parker
+                                                                                                                                        Send you a voice mail for next conference.</p>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                                <div class="recent-activity-list chat-out-list row mb-0">
+                                                                                                                                    <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                                                                                                                                        <i class="material-icons white-text icon-bg-color deep-purple lighten-2">store</i>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="col s9 recent-activity-list-text">
+                                                                                                                                        <a href="#" class="deep-purple-text medium-small">3 Month Ago</a>
+                                                                                                                                        <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Jessy Jay
+                                                                                                                                            open a new store at S.G Road.</p>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="recent-activity-list row">
+                                                                                                                                        <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                                                                                                                                            <i class="material-icons white-text icon-bg-color grey lighten-2">settings_voice</i>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="col s9 recent-activity-list-text">
+                                                                                                                                            <a href="#" class="grey-text medium-small">1 Year Ago</a>
+                                                                                                                                            <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">voice mail
+                                                                                                                                                for conference.</p>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </li>
+                                                                                                                    </ul>
+                                                                                                                </aside>
+                                                                                                                <!-- END RIGHT SIDEBAR NAV-->
+                                                                                                            </div>                                                                                                          
+                                                                                                        </div>                                                                                                        
+                                                                                                        <!-- Inicio do Footer -->
+                                                                                                        <footer class="page-footer black">
+                                                                                                            <div class="footer-copyright">
+                                                                                                                <div class="container">
+                                                                                                                    <span>Copyright ©
+                                                                                                                        <script type="text/javascript">
+                                                                                                                            document.write(new Date().getFullYear());
+                                                                                                                        </script> <a class="grey-text text-lighten-2" href="http://themeforest.net/user/pixinvent/portfolio?ref=pixinvent"
+                                                                                                                        target="_blank">UNION</a> Todos os direitos reservados.</span>
+                                                                                                                        <span class="right hide-on-small-only"> Design e Desnvelvimento feito pela <a class="grey-text text-lighten-2" href="#">UNION</a></span>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </footer>
+                                                                                                            <!-- Fim do Footer -->                                                                                                            
+                                                                                                                <!-- jQuery Library -->
+                                                                                                                <script type="text/javascript" src="vendors/jquery-3.2.1.min.js"></script>
+                                                                                                                <!--materialize js-->
+                                                                                                                <script type="text/javascript" src="js/materialize.min.js"></script>
+                                                                                                                <!--scrollbar-->
+                                                                                                                <script type="text/javascript" src="vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+                                                                                                                <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+                                                                                                                <script type="text/javascript" src="js/plugins.js"></script>
+                                                                                                                <!--custom-script.js - Add your own theme custom JS-->
+                                                                                                                <script type="text/javascript" src="js/custom-script.js"></script>
+                                                                                                                <script type="text/javascript" src="js/Chart.min.js"></script>
+                                                                                                                <script type="text/javascript" src="js/Chart.bundle.min.js"></script>
+                                                                                                                <script>
+                                                                                                                    var ctx = document.getElementById("myChart").getContext('2d');
+                                                                                                                    var myChart = new Chart(ctx, {
+                                                                                                                        type: 'bar',
+                                                                                                                        data: {
+                                                                                                                            labels: ["JQuery", "CSS3", "JavaScript", "MYsql", "C#", "HTML5"],
+                                                                                                                            datasets: [{
+                                                                                                                                label: 'Skills',
+                                                                                                                                data: [5, 18, 9, 9, 2, 20],
+                                                                                                                                backgroundColor: [
+                                                                                                                                'rgba(255, 99, 132, 0.2)',
+                                                                                                                                'rgba(0, 0, 128, 0.2)',
+                                                                                                                                'rgba(255, 206, 86, 0.2)',
+                                                                                                                                'rgba(153, 0, 153, 0.2)',
+                                                                                                                                'rgba(153, 102, 255, 0.2)',
+                                                                                                                                'rgba(0,0,0, 0.2)'
+                                                                                                                                ],
+                                                                                                                                borderColor: [
+                                                                                                                                'rgba(255,99,132,1)',
+                                                                                                                                'rgba(54, 162, 235, 1)',
+                                                                                                                                'rgba(255, 206, 86, 1)',
+                                                                                                                                'rgba(153, 0, 153, 1)',
+                                                                                                                                'rgba(153, 102, 255, 1)',
+                                                                                                                                'rgba(0,0,0, 1)'
+                                                                                                                                ],
+                                                                                                                                borderWidth: 1
+                                                                                                                            }]
+                                                                                                                        },
+                                                                                                                        options: {
+                                                                                                                            scales: {
+                                                                                                                                yAxes: [{
+                                                                                                                                    ticks: {
+                                                                                                                                        beginAtZero: true
+                                                                                                                                    }
+                                                                                                                                }]
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    });
+                                                                                                                     var ctx = document.getElementById('lineChart').getContext('2d');
+                                                                                                                        var chart = new Chart(ctx, {
+                                                                                                                            // The type of chart we want to create
+                                                                                                                            type: 'line',
+
+                                                                                                                            // The data for our dataset
+                                                                                                                            data: {
+                                                                                                                                labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro"],
+                                                                                                                                datasets: [{
+                                                                                                                                    label: "Progresso Mensal",
+                                                                                                                                    backgroundColor: 'rgb(255, 99, 132,0.3)',
+                                                                                                                                    borderColor: 'rgb(255, 99, 132,1)',
+                                                                                                                                    data: [10, 40,20,35, 47, 30, 45, 55, 62],
+                                                                                                                                }]
+                                                                                                                            },
+
+                                                                                                                            // Configuration options go here
+                                                                                                                            options: {}
+                                                                                                                        });                                                                                                                   
+                                                                                                                </script>
+                                                                                                            </body>
+                                                                                                            
+                                                                                                            </html>
