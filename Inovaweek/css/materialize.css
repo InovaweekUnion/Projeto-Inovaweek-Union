@@ -5316,7 +5316,7 @@ small {
 
 .btn:focus, .btn-large:focus,
 .btn-floating:focus {
-  background-color: #ff0d5f;
+  background-image: linear-gradient(to right top, #ffde00, #ffd627, #ffce39, #fdc748, #f9c054);
 }
 
 .btn, .btn-large {
@@ -5343,15 +5343,15 @@ small {
   height: 40px;
   line-height: 40px;
   padding: 0;
-  background-color: #ff4081;
+ background-image: linear-gradient(to right top, #ffde00, #ffd627, #ffce39, #fdc748, #f9c054);
   border-radius: 50%;
   transition: .3s;
   cursor: pointer;
-  vertical-align: middle;
+  vertical-align: middle;  
 }
 
 .btn-floating:hover {
-  background-color: #ff4081;
+  background-image: linear-gradient(to right top, #ffde00, #ffd627, #ffce39, #fdc748, #f9c054);
 }
 
 .btn-floating:before {

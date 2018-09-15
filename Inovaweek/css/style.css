@@ -7656,3 +7656,41 @@ Footer
 #card{
   border-radius: 10px;
 }
+#preferencia{
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#publicacao{
+  margin-top: 10px;
+}
+#curti{
+  color: chartreuse;
+  margin-top: 10px;
+}
+#rejeita{
+  color: red;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#compartilha{
+   color: #00AEFF;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#avatar-image{
+  border-radius: 150px;
+  width: 100px;
+   margin-top: 10px;
+  margin-left: 10px;
+}
+
+#logo-union{
+  width: 130px;
+  height: 50px;
+}
+
+#titulo-certificacao{
+  text-align: center;
+}

@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google. ">
+    <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
+    <title>Union</title>
+    <!-- Favicons-->
+    <link rel="icon" href="images/favicon/7902logo31.ico">
+    <!-- Favicons-->
+    <!-- <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png"> -->
+    <!-- For iPhone -->
+    <!-- <meta name="msapplication-TileColor" content="#00bcd4">
+    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png"> -->
+    <!-- For Windows Phone -->
+    <!-- CORE CSS-->
+    <link href="css//materialize.css" type="text/css" rel="stylesheet">
+    <link href="css//style.css" type="text/css" rel="stylesheet">
+    <!-- Custome CSS-->
+    <link href="css/custom/custom.css" type="text/css" rel="stylesheet">
+    <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+    <link href="vendors/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet">
+    <link href="vendors/flag-icon/css/flag-icon.min.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- START HEADER -->
+    <header id="header" class="page-topbar">
+        <!-- start header nav-->
+        <div class="navbar-fixed">
+            <nav class="navbar-color gradient-45deg-blue-grey-blue">
+                <div class="nav-wrapper">
+                    <ul class="left">
+                        <li>
+                            <h1 class="logo-wrapper">
+                                <a href="dashboardBruno.html" class="brand-logo darken-1">
+                                    <img id="logo-union" src="images/logo/logo.png" alt="logo">
+                                    <!-- <span class="logo-text hide-on-med-and-down">Union</span> -->
+                                </a>
+                            </h1>
+                        </li>
+                    </ul>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="javascript:void(0);" class="waves-effect waves-block waves-light notification-button"
+                                data-activates="notifications-dropdown">
+                                <i class="material-icons">notifications_none
+                                    <small class="notification-badge pink accent-2">5</small>
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="waves-effect waves-block waves-light profile-button"
+                                data-activates="profile-dropdown">
+                                <span class="avatar-status avatar-online">
+                                    <img src="images/Bruno2.jpg" alt="avatar">
+                                    <i></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-activates="chat-out" class="waves-effect waves-block waves-light chat-collapse">
+                                <i class="material-icons">format_indent_increase</i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- notifications-dropdown -->
+                    <ul id="notifications-dropdown" class="dropdown-content">
+                        <li>
+                            <h6>Notificações
+                                <span class="new badge">5</span>
+                            </h6>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#!" class="grey-text text-darken-2">
+                                <span class="material-icons icon-bg-circle cyan small">code</span> Novo feed sobre
+                                HTML5
+                                disponível!
+                            </a>
+                            <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">2 horas atrás</time>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text text-darken-2">
+                                <span class="material-icons icon-bg-circle red small">stars</span> Conteúdo sobre CSS3
+                                divulgado.</a>
+                            <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">3 dias atrás</time>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text text-darken-2">
+                                <span class="material-icons icon-bg-circle teal small">settings</span> Configurações do
+                                aplicativos
+                                atualizadas.
+                            </a>
+                            <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">4 dias atrás</time>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text text-darken-2">
+                                <span class="material-icons icon-bg-circle deep-orange small">card_travel</span> Inicio
+                                do
+                                curso de AngularJS.</a>
+                            <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">6 dias atrás</time>
+                        </li>
+                        <li>
+                            <a href="#!" class="grey-text text-darken-2">
+                                <span class="material-icons icon-bg-circle amber small">done_all</span> Seus interesses
+                                foram
+                                atualizados.
+                            </a>
+                            <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">1 semana atrás</time>
+                        </li>
+                    </ul>
+                    <!-- profile-dropdown -->
+                    <ul id="profile-dropdown" class="dropdown-content">
+                        <li>
+                            <a href="#" class="grey-text text-darken-1">
+                                <i class="material-icons">face</i> Perfil</a>
+                        </li>
+                        <li>
+                            <a href="#" class="grey-text text-darken-1">
+                                <i class="material-icons">settings</i> Configurações</a>
+                        </li>
+                        <li>
+                            <a href="#" class="grey-text text-darken-1">
+                                <i class="material-icons">live_help</i> Ajuda</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#" class="grey-text text-darken-1">
+                                <i class="material-icons">keyboard_tab</i> Sair </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- end header nav-->
+    </header>
+    <!-- END HEADER -->
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+    <!-- START MAIN -->
+    <div id="main">
+        <!-- START WRAPPER -->
+        <div class="wrapper">
+            <!-- START LEFT SIDEBAR NAV-->
+            <aside id="left-sidebar-nav">
+                <ul id="slide-out" class="side-nav fixed leftside-navigation">
+                    <li class="user-details cyan darken-2">
+                        <div class="row">
+                            <div class="col col s4 m4 l4">
+                                <img src="images/Bruno2.jpg" alt="" class="circle responsive-img valign profile-image cyan">
+                            </div>
+                            <div class="col col s8 m8 l8">
+                                <ul id="profile-dropdown-nav" class="dropdown-content">
+                                    <li>
+                                        <a href="perfil.html" class="grey-text text-darken-1">
+                                            <i class="material-icons">face</i> Perfil</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="grey-text text-darken-1">
+                                            <i class="material-icons">settings</i> Configurações</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="grey-text text-darken-1">
+                                            <i class="material-icons">live_help</i> Ajuda</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="#" class="grey-text text-darken-1">
+                                            <i class="material-icons">keyboard_tab</i> Sair</a>
+                                    </li>
+                                </ul>
+                                <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn"
+                                    href="#" data-activates="profile-dropdown-nav">Bruno
+                                    Bonadiman
+                                    <i class="mdi-navigation-arrow-drop-down right"></i></a>
+                                <p class="user-roal">brunobonadiman2@gmail.com</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="no-padding">
+                        <ul class="collapsible" data-collapsible="accordion">
+                            <li class="bold">
+                                <a href="dashboardBruno.html" class="waves-effect waves-cyan">
+                                    <i class="material-icons">dashboard</i>
+                                    <span class="nav-text">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="bold">
+                                <a href="perfil.html" class="waves-effect waves-cyan">
+                                    <i class="material-icons">face</i>
+                                    <span class="nav-text">Perfil</span>
+                                </a>
+                            </li>
+                            <li class="bold">
+                                <a href="feed.html" class="waves-effect waves-cyan">
+                                    <i class="material-icons">rss_feed</i>
+                                    <span class="nav-text">Feed</span>
+                                </a>
+                            </li>
+                            <li class="bold">
+                                <a href="ranking.html" class="waves-effect waves-cyan">
+                                    <i class="material-icons">star_rate</i>
+                                    <span class="nav-text">Ranking</span>
+                                </a>
+                            </li>
+                            <li class="bold">
+                                <a href="certificacoes.html" class="waves-effect waves-cyan">
+                                    <i class="material-icons">school</i>
+                                    <span class="nav-text">Certificações</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only">
+                    <i class="material-icons">menu</i>
+                </a>
+            </aside>
+            <div id="preferencia">
+                <span>Defina suas preferências clicando </span><a class="modal-trigger" href="#modal1">Aqui!</a>
+            </div>
+            <div class="divider"></div>
+            <div class="col s12 m12 l12">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <div class="card horizontal">
+                            <div class="card-image">
+                                <img id="avatar-image" src="images/julia.jpg">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <h5><strong>Júlia Rizzi</strong></h5>
+                                    <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">
+                                        <h6>2 horas atrás</h6>
+                                    </time>
+
+                                    <span id="publicacao">Galera! Vocês já viram o novo curso de Front-End da Udemy, ta
+                                        simplesmente sensacional, e super barato. Deixei o link
+                                        pra vocês. Beijos</span>
+
+                                    <div class="row">
+                                        <i class="material-icons" id="curti" href="#">thumb_up</i>
+                                        <i class="material-icons" id="rejeita" href="#">thumb_down</i>
+                                        <i class="material-icons" id="compartilha" href="#">share</i>
+                                    </div>
+                                </div>
+                                <div class="card-action">
+                                    <a href="https://www.udemy.com/curso-web-design-fundamentos-aprenda-html-css-e-javascript/">Link
+                                        Udemy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <div class="card horizontal">
+                            <div class="card-image">
+                                <img id="avatar-image" src="images/Nayara.jpg">
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <h5><strong>Nayara Dias</strong></h5>
+                                    <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">
+                                        <h6>2 min atrás</h6>
+                                    </time>
+
+                                    <span id="publicacao">Gente, estou no 4° Período da faculdade de Sistemas de
+                                        Informação na UVV. E estou a procura de um estágio na área de TI. Se alguém
+                                        souber de algum me avisa! Obrigado...</span>
+
+                                    <div class="row">
+                                        <i class="material-icons" id="curti" href="#">thumb_up</i>
+                                        <i class="material-icons" id="rejeita" href="#">thumb_down</i>
+                                        <i class="material-icons" id="compartilha" href="#">share</i>
+                                    </div>
+                                </div>
+                                <!-- <div class="card-action">
+                                    <a href="#">This is a link</a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l12">
+                    <div class="row">
+                        <div class="col s12 m6 l6">
+                            <div class="card horizontal">
+                                <div class="card-image">
+                                    <img id="avatar-image" src="images/vinicius.jpg">
+                                </div>
+                                <div class="card-stacked">
+                                    <div class="card-content">
+                                        <h5><strong>Marcos Vinicius</strong></h5>
+                                        <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">
+                                            <h6>Agora</h6>
+                                        </time>
+
+                                        <span id="publicacao"><strong>"VAGAS PARA DESENVOLVEDOR .NET"</strong></span>
+                                        <p><strong>*Área de especialização</strong></p>
+                                        <p>Informática, TI, Telecomunicações - Programador/ Desenvolvedor</p>
+
+                                        <span>Mais informações no link abaixo!!</span>
+
+                                        <div class="row">
+                                            <i class="material-icons" id="curti" href="#">thumb_up</i>
+                                            <i class="material-icons" id="rejeita" href="#">thumb_down</i>
+                                            <i class="material-icons" id="compartilha" href="#">share</i>
+                                        </div>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="https://www.infojobs.com.br/vaga-de-desenvolvedor-net-em-espirito-santo__5921590.aspx">Link
+                                            do anúncio</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l6">
+                            <div class="card horizontal">
+                                <div class="card-image">
+                                    <img id="avatar-image" src="images/Leonardo.jpg">
+                                </div>
+                                <div class="card-stacked">
+                                    <div class="card-content">
+                                        <h5><strong>Leonardo Figueiredo</strong></h5>
+                                        <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">
+                                            <h6>1 Semana atrás</h6>
+                                        </time>
+
+                                        <span id="publicacao"><strong></strong></span>
+                                        <p><strong>*AJUDA COM D3.js</strong></p>
+                                        <p>Galera, Boa Tarde!
+                                            Tenho um pouco de experiência com a ferramenta D3 JS se alguém tiver
+                                            interesse posso ensinar um pouco do que sei sobre essa ferramenta.
+                                        </p>
+
+                                        <span>Interessados, me procurem aqui mesmo na plataforma da UNION.</span>
+
+                                        <div class="row">
+                                            <i class="material-icons" id="curti" href="#">thumb_up</i>
+                                            <i class="material-icons" id="rejeita" href="#">thumb_down</i>
+                                            <i class="material-icons" id="compartilha" href="#">share</i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l12">
+                        <div class="row">
+                            <div class="col s12 m6 l6">
+                                <div class="card horizontal">
+                                    <div class="card-image">
+                                        <img id="avatar-image" src="images/darlan.jpg">
+                                    </div>
+                                    <div class="card-stacked">
+                                        <div class="card-content">
+                                            <h5><strong>Darlan</strong></h5>
+                                            <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">
+                                                <h6>Agora</h6>
+                                            </time>
+
+                                            <span id="publicacao"><strong>"Desenvolvedor De Software Java Sr"</strong></span>
+
+                                            <p>Galera, mais uma oportunidade de emprego na área de TI, vou colocar o
+                                                link que tiver interesse passa lá.</p>
+
+                                            <div class="row">
+                                                <i class="material-icons" id="curti" href="#">thumb_up</i>
+                                                <i class="material-icons" id="rejeita" href="#">thumb_down</i>
+                                                <i class="material-icons" id="compartilha" href="#">share</i>
+                                            </div>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="https://www.infojobs.com.br/vaga-de-desenvolvedor-software-java-sr-em-espirito-santo__6063751.aspx">Link
+                                                da Vaga</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6 l6">
+                                <div class="card horizontal">
+                                    <div class="card-image">
+                                        <img id="avatar-image" src="images/Bruno2.jpg">
+                                    </div>
+                                    <div class="card-stacked">
+                                        <div class="card-content">
+                                            <h5><strong>Bruno Bonadiman</strong></h5>
+                                            <time class="media-meta" datetime="2015-06-12T20:50:48+08:00">
+                                                <h6>Agora</h6>
+                                            </time>
+
+                                            <span id="publicacao"><strong>"Curso de AngularJS"</strong></span>
+
+                                            <p>Como o Angular vem crescendo muito e as empresas tão pedindo muito como
+                                                requisito para contratação. Segue o link do curso de Angular da Udemy
+                                                que na minha opnião é um dos melhores.</p>
+
+                                            <div class="row">
+                                                <i class="material-icons" id="curti" href="#">thumb_up</i>
+                                                <i class="material-icons" id="rejeita" href="#">thumb_down</i>
+                                                <i class="material-icons" id="compartilha" href="#">share</i>
+                                            </div>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="https://www.udemy.com/angular-js-na-pratica/">Link
+                                                do Curso de AngularJS</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <h5 class="cadastro">Escolha suas preferências</h5>
+                        <!-- Switch -->
+                        <div class="row">
+                            <div class="switch">
+                                <label>
+                                    <strong>C#</strong>
+                                    <input type="checkbox">
+                                    <span class="lever"></span>
+                                </label>
+                            </div>
+                            <p>
+                                <div class="switch">
+                                    <label>
+                                        <strong>HTML5</strong>
+                                        <input type="checkbox">
+                                        <span class="lever"></span>
+                                    </label>
+                                </div>
+                                <p>
+                                    <div class="switch">
+                                        <label>
+                                            <strong>CSS3</strong>
+                                            <input type="checkbox">
+                                            <span class="lever"></span>
+                                        </label>
+                                    </div>
+                                    <p>
+                                        <div class="switch">
+                                            <label>
+                                                <strong>AngularJS</strong>
+                                                <input type="checkbox">
+                                                <span class="lever"></span>
+                                            </label>
+                                        </div>
+                                        <p>
+                                            <div class="switch">
+                                                <label>
+                                                    <strong>SQL</strong>
+                                                    <input type="checkbox">
+                                                    <span class="lever"></span>
+                                                </label>
+                                            </div>
+                                            <p>
+                                                <div class="switch">
+                                                    <label>
+                                                        <strong>Back-End</strong>
+                                                        <input type="checkbox">
+                                                        <span class="lever"></span>
+                                                    </label>
+                                                </div>
+                                                <p>
+                                                    <div class="switch">
+                                                        <label>
+                                                            <strong>Front-End</strong>
+                                                            <input type="checkbox">
+                                                            <span class="lever"></span>
+                                                        </label>
+                                                    </div>
+                                                    <p>
+                                                        <div class="switch">
+                                                            <label>
+                                                                <strong>Java</strong>
+                                                                <input type="checkbox">
+                                                                <span class="lever"></span>
+                                                            </label>
+                                                        </div>
+                                                        <p>
+                                                            <div class="switch">
+                                                                <label>
+                                                                    <strong>Javascript</strong>
+                                                                    <input type="checkbox">
+                                                                    <span class="lever"></span>
+                                                                </label>
+                                                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <button class="btn waves-effect waves-light" type="submit" name="action">Definir
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- START RIGHT SIDEBAR NAV-->
+                <aside id="right-sidebar-nav">
+                    <ul id="chat-out" class="side-nav rightside-navigation">
+                        <li class="li-hover">
+                            <div class="row">
+                                <div class="col s12 border-bottom-1 mt-5">
+                                    <ul class="tabs">
+                                        <li class="tab col s4">
+                                            <a href="#activity" class="active">
+                                                <span class="material-icons">graphic_eq</span>
+                                            </a>
+                                        </li>
+                                        <li class="tab col s4">
+                                            <a href="#chatapp">
+                                                <span class="material-icons">face</span>
+                                            </a>
+                                        </li>
+                                        <li class="tab col s4">
+                                            <a href="#settings">
+                                                <span class="material-icons">settings</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="settings" class="col s12">
+                                    <h6 class="mt-5 mb-3 ml-3">Configurações Gerais</h6>
+                                    <ul class="collection border-none">
+                                        <li class="collection-item border-none">
+                                            <div class="m-0">
+                                                <span class="font-weight-600">Notificações</span>
+                                                <div class="switch right">
+                                                    <label>
+                                                        <input checked type="checkbox">
+                                                        <span class="lever"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <p>Use os checkbox para obter respostas do tipo SIM ou NÃO.</p>
+                                        </li>
+                                        <li class="collection-item border-none">
+                                            <div class="m-0">
+                                                <span class="font-weight-600">Mostrar atividades recentes</span>
+                                                <div class="switch right">
+                                                    <label>
+                                                        <input checked type="checkbox">
+                                                        <span class="lever"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <p>O atributo for é necessário para vincular nossa caixa de seleção personalizada com a
+                                                entrada.</p>
+                                        </li>
+                                        <li class="collection-item border-none">
+                                            <div class="m-0">
+                                                <span class="font-weight-600">Notificações</span>
+                                                <div class="switch right">
+                                                    <label>
+                                                        <input type="checkbox">
+                                                        <span class="lever"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <p>Use checkboxes para visualizar suas notificações.</p>
+                                        </li>
+                                        <li class="collection-item border-none">
+                                            <div class="m-0">
+                                                <span class="font-weight-600">Mostrar atividades recentes</span>
+                                                <div class="switch right">
+                                                    <label>
+                                                        <input type="checkbox">
+                                                        <span class="lever"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <p>O atributo for é necessário para vincular nossa caixa de seleção personalizada com a
+                                                entrada.</p>
+                                        </li>
+                                        <li class="collection-item border-none">
+                                            <div class="m-0">
+                                                <span class="font-weight-600">Mostrar e-mails</span>
+                                                <div class="switch right">
+                                                    <label>
+                                                        <input type="checkbox">
+                                                        <span class="lever"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <p>Ative a opção de e-mails através do checkbox.</p>
+                                        </li>
+                                        <li class="collection-item border-none">
+                                            <div class="m-0">
+                                                <span class="font-weight-600">Mostrar estatísticas</span>
+                                                <div class="switch right">
+                                                    <label>
+                                                        <input type="checkbox">
+                                                        <span class="lever"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <p>O atributo for é necessário para vincular nossa caixa de seleção personalizada à
+                                                entrada.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="chatapp" class="col s12">
+                                    <div class="collection border-none">
+                                        <a href="#!" class="collection-item avatar border-none">
+                                            <img src="images/darlan.jpg" alt="" class="circle">
+                                            <span class="line-height-0">Darlan </span>
+                                            <span class="medium-small right blue-grey-text text-lighten-3">Agora</span>
+                                            <p class="medium-small blue-grey-text text-lighten-3">Mano aqui no ES tem várias vagas...</p>
+                                        </a>
+                                        <a href="#!" class="collection-item avatar border-none">
+                                            <img src="images/julia.jpg" alt="" class="circle">
+                                            <span class="line-height-0">Júlia Rizzi</span>
+                                            <span class="medium-small right blue-grey-text text-lighten-3">2 horas atrás</span>
+                                            <p class="medium-small blue-grey-text text-lighten-3">Bruno você viu o curso de front...</p>
+                                        </a>
+                                        <a href="#!" class="collection-item avatar border-none">
+                                            <img src="images/Leonardo.jpg" alt="" class="circle">
+                                            <span class="line-height-0">Leonardo Figueiredo </span>
+                                            <span class="medium-small right blue-grey-text text-lighten-3">1 Dia atrás</span>
+                                            <p class="medium-small blue-grey-text text-lighten-3">Bruno você vai querer aquela ajuda
+                                                com o D3 JS?</p>
+                                        </a>
+                                        <a href="#!" class="collection-item avatar border-none">
+                                            <img src="images/vinicius.jpg" alt="" class="circle">
+                                            <span class="line-height-0">Marcos Vinicius </span>
+                                            <span class="medium-small right blue-grey-text text-lighten-3">4 Horas atrás</span>
+                                            <p class="medium-small blue-grey-text text-lighten-3">Fala Dum Dum!</p>
+                                        </a>
+                                        <a href="#!" class="collection-item avatar border-none">
+                                            <img src="images/Nayara.jpg" alt="" class="circle">
+                                            <span class="line-height-0">Nayara Dias </span>
+                                            <span class="medium-small right blue-grey-text text-lighten-3">Agora</span>
+                                            <p class="medium-small blue-grey-text text-lighten-3">Bruno precisamos terminar o projeto
+                                                de HTML5...</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="activity" class="col s12">
+                                    <h6 class="mt-5 mb-3 ml-3">ATIVIDADES RECENTES</h6>
+                                    <div class="activity">
+                                        <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                                            <i class="material-icons white-text icon-bg-color deep-purple lighten-2">add_shopping_cart</i>
+                                        </div>
+                                        <div class="col s9 recent-activity-list-text">
+                                            <a href="#" class="deep-purple-text medium-small">Agora</a>
+                                            <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Curso de AgularJS
+                                                comprado na Udemy.</p>
+                                        </div>
+                                        <div class="recent-activity-list chat-out-list row mb-0">
+                                            <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                                                <i class="material-icons white-text icon-bg-color cyan lighten-2">school</i>
+                                            </div>
+                                            <div class="col s9 recent-activity-list-text">
+                                                <a href="#" class="cyan-text medium-small">Amanhã</a>
+                                                <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Aula de D3 JS com
+                                                    Leonardo Figueiredo.</p>
+                                            </div>
+                                        </div>
+                                        <div class="recent-activity-list chat-out-list row mb-0">
+                                            <div class="col s3 mt-2 center-align recent-activity-list-icon medium-small">
+                                                <i class="material-icons white-text icon-bg-color green lighten-2">school</i>
+                                            </div>
+                                            <div class="col s9 recent-activity-list-text">
+                                                <a href="#" class="green-text medium-small">Amanhã</a>
+                                                <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Finalizar projeto
+                                                    em HTML5 com a Nayara Dias.</p>
+                                            </div>
+                                        </div>
+                                        <div class="recent-activity-list chat-out-list row mb-0">
+                                            <div class="col s3 mt-2 center-align recent-activity-list-icon">
+                                                <i class="material-icons white-text icon-bg-color amber lighten-2">group</i>
+                                            </div>
+                                            <div class="col s9 recent-activity-list-text">
+                                                <a href="#" class="amber-text medium-small">Semana que vem</a>
+                                                <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Grupo de estudos de
+                                                    Front-End na UVV.</p>
+                                            </div>
+                                        </div>
+                                        <div class="recent-activity-list chat-out-list row mb-0">
+                                            <div class="col s3 mt-2 center-align recent-activity-list-icon medium-small">
+                                                <i class="material-icons white-text icon-bg-color brown lighten-2">rss_feed</i>
+                                            </div>
+                                            <div class="col s9 recent-activity-list-text">
+                                                <a href="#" class="brown-text medium-small">Agora</a>
+                                                <p class="mt-0 mb-2 fixed-line-height font-weight-300 medium-small">Novo feed com
+                                                    oprtunidade de emprego postado.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </aside>
+                <!-- END RIGHT SIDEBAR NAV-->
+            </div>
+        </div>
+        <!-- Inicio do Footer -->
+        <footer class="page-footer gradient-45deg-blue-grey-blue">
+            <div class="footer-copyright">
+                <div class="container">
+                    <span>Copyright ©
+                        <script type="text/javascript">
+                            document.write(new Date().getFullYear());
+                        </script> <a class="grey-text text-lighten-2" href="http://themeforest.net/user/pixinvent/portfolio?ref=pixinvent"
+                            target="_blank">UNION</a> Todos os direitos reservados.</span>
+                    <span class="right hide-on-small-only"> Design e Desnvelvimento feito pela <a class="grey-text text-lighten-2"
+                            href="#">UNION</a></span>
+                </div>
+            </div>
+        </footer>
+        <!-- Fim do Footer -->
+        <!-- jQuery Library -->
+        <script type="text/javascript" src="vendors/jquery-3.2.1.min.js"></script>
+        <!--materialize js-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <!--scrollbar-->
+        <script type="text/javascript" src="vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+        <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <!--custom-script.js - Add your own theme custom JS-->
+        <script type="text/javascript" src="js/custom-script.js"></script>
+        <script type="text/javascript" src="js/Chart.min.js"></script>
+        <script type="text/javascript" src="js/Chart.bundle.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.modal').modal();
+            });
+        </script>
+
+</body>
+
+</html>
