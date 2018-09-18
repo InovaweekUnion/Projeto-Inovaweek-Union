@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700);
+@import url('fonts/froboto.css');
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -6775,7 +6775,7 @@ ul.side-nav.leftside-navigation li:not(.no-padding) a {
 }
 
 ul.side-nav.leftside-navigation li:not(.no-padding).user-details {
-  background: url("../../images/gallary/24.png") no-repeat center center;
+  background: url("../../images/gallary/21.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
