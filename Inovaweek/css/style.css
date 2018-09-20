@@ -7636,7 +7636,7 @@ Footer
 #bruno{
   border-radius: 180px;
   width: 160px;
-  margin-left: 90px;
+  margin-left: 110px;
   margin-top: -80px;
 }
 .informacoes{
@@ -7675,15 +7675,30 @@ Footer
 }
 
 #compartilha{
-   color: #00AEFF;
+  color: #00AEFF;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#comenta{
+  color:#ffab00;
   margin-top: 10px;
   margin-left: 10px;
 }
 #avatar-image{
   border-radius: 150px;
   width: 100px;
-   margin-top: 10px;
+  margin-top: 10px;
   margin-left: 10px;
+}
+#curtida{
+  width: 20px;
+  color: blue;
+  margin-top:2px;
+}
+
+#chip-curtida{
+  margin-top:5px;
 }
 
 #logo-union{

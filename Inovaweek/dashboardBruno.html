@@ -213,12 +213,18 @@
                     <div class="row">
                         <div class="col s12 m12 l6">
                             <div class="card-panel">
-                                <h5><b>Conhecimentos Atuais</b></h5>
+                                <a class="btn-floating activator btn-move-up waves-effect waves-light red accent-2 z-depth-4 right  tooltipped" data-tooltip="Cadastrar Skills!">
+                                            <i class="material-icons">add</i>
+                                        </a>
+                                <h5><b>Conhecimentos Atuais</b></h5>                               
                                 <canvas id="myChart" width="300" height="100"></canvas>
                             </div>
                         </div>
                         <div class="col s12 m12 l6">
                             <div class="card-panel">
+                                 <a class="btn-floating activator btn-move-up waves-effect waves-light red accent-2 z-depth-4 right  tooltipped" data-tooltip="Cadastrar Progresso!">
+                                            <i class="material-icons">add</i>
+                                        </a>
                                 <h5><b>Progressos</b></h5>
                                 <canvas id="lineChart" width="300" height="100"></canvas>
                             </div>
@@ -231,9 +237,12 @@
                             <div class="col s12 m12 l6">
                                 <ul id="projects-collection" class="collection z-depth-1">
                                     <li class="collection-item avatar">
+                                        <a class="btn-floating activator btn-move-up waves-effect waves-light red accent-2 z-depth-4 right  tooltipped" data-tooltip="Cadastrar Projetos!">
+                                            <i class="material-icons">add</i>
+                                        </a>
                                         <i class="material-icons cyan circle">card_travel</i>
                                         <h6 class="collection-header m-0">Meus Projetos</h6>
-                                        <p>Concluídos e em andamento</p>
+                                        <p>Concluídos e em andamento</p>                                        
                                     </li>
                                     <li class="collection-item">
                                         <div class="row">
@@ -283,10 +292,13 @@
                             </div>
                             <div class="col s12 m12 l6">
                                 <ul id="issues-collection" class="collection z-depth-1">
-                                    <li class="collection-item avatar">
-                                        <i class="material-icons red accent-2 circle">group_work</i>
+                                    <li class="collection-item avatar">     
+                                         <a class="btn-floating activator btn-move-up waves-effect waves-light red accent-2 z-depth-4 right  tooltipped" data-tooltip="Cadastrar Comunidades!">
+                                            <i class="material-icons">add</i>
+                                        </a>                                 
+                                        <i class="material-icons red accent-2 circle">group_work</i>                                     
                                         <h6 class="collection-header m-0">Comunidades</h6>
-                                        <p>Relacionadas à você</p>
+                                        <p>Relacionadas à você</p>                                           
                                     </li>
                                     <li class="collection-item">
                                         <div class="row">
@@ -565,6 +577,7 @@
     <script type="text/javascript" src="js/custom-script.js"></script>
     <script type="text/javascript" src="js/Chart.min.js"></script>
     <script type="text/javascript" src="js/Chart.bundle.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script>
         var ctx = document.getElementById("myChart").getContext('2d');
         var myChart = new Chart(ctx, {
@@ -621,7 +634,10 @@
 
             // Configuration options go here
             options: {}
-        });                                                                                                                   
+        });            
+         $(document).ready(function(){
+    $('.tooltipped').tooltip();
+  });                                                                                          
     </script>
 </body>
 

@@ -216,12 +216,35 @@
                         </ul>
                     </li>
                 </ul>
-                <a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only">
+                <a href="#" data-activates="slide-out" style="margin-top:-10px;" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only">
                     <i class="material-icons">menu</i>
                 </a>
             </aside>
             <div id="preferencia">
                 <span>Defina suas preferências clicando </span><a class="modal-trigger" href="#modal1">Aqui!</a>
+            </div>
+            <div class="container">
+             <div class="row">
+            <div class="col s12 m12">
+            <div class="card">
+                <div class="card-content">
+                 <div class="row">
+                    <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                        <i class="material-icons prefix">mode_edit</i>
+                        <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                        <label for="icon_prefix2">O que iremos compartilhar hoje?</label>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                </div>
+                <div class="card-action">
+                <a class="btn-floating activator btn-move-up waves-effect waves-light red accent-2 z-depth-4 right  tooltipped" style="margin-top:-10px;" data-tooltip="Publicar!">
+                    <i class="material-icons">send</i></a>
+                </div>
+            </div>
             </div>
             <div class="divider"></div>
             <div class="col s12 m12 l12">
@@ -246,7 +269,16 @@
                                         <i class="material-icons" id="curti" href="#">thumb_up</i>
                                         <i class="material-icons" id="rejeita" href="#">thumb_down</i>
                                         <i class="material-icons" id="compartilha" href="#">share</i>
+                                        <i class="material-icons" id="comenta" href="#">comment</i>
                                     </div>
+                                    <div class="chip">
+                                    <img src="images/Nayara.jpg" alt="Contact Person">
+                                    Nayara Dias
+                                </div>
+                                <div class="chip" id="chip-curtida">
+                                <i class="material-icons" id="curtida">thumb_up</i>
+                                <i class="close material-icons">close</i>
+                            </div>
                                 </div>
                                 <div class="card-action">
                                     <a href="https://www.udemy.com/curso-web-design-fundamentos-aprenda-html-css-e-javascript/">Link
@@ -275,6 +307,7 @@
                                         <i class="material-icons" id="curti" href="#">thumb_up</i>
                                         <i class="material-icons" id="rejeita" href="#">thumb_down</i>
                                         <i class="material-icons" id="compartilha" href="#">share</i>
+                                        <i class="material-icons" id="comenta" href="#">comment</i>
                                     </div>
                                 </div>
                                 <!-- <div class="card-action">
@@ -308,6 +341,7 @@
                                             <i class="material-icons" id="curti" href="#">thumb_up</i>
                                             <i class="material-icons" id="rejeita" href="#">thumb_down</i>
                                             <i class="material-icons" id="compartilha" href="#">share</i>
+                                            <i class="material-icons" id="comenta" href="#">comment</i>
                                         </div>
                                     </div>
                                     <div class="card-action">
@@ -342,6 +376,7 @@
                                             <i class="material-icons" id="curti" href="#">thumb_up</i>
                                             <i class="material-icons" id="rejeita" href="#">thumb_down</i>
                                             <i class="material-icons" id="compartilha" href="#">share</i>
+                                            <i class="material-icons" id="comenta" href="#">comment</i>
                                         </div>
                                     </div>
                                 </div>
@@ -371,6 +406,7 @@
                                                 <i class="material-icons" id="curti" href="#">thumb_up</i>
                                                 <i class="material-icons" id="rejeita" href="#">thumb_down</i>
                                                 <i class="material-icons" id="compartilha" href="#">share</i>
+                                                <i class="material-icons" id="comenta" href="#">comment</i>
                                             </div>
                                         </div>
                                         <div class="card-action">
@@ -402,6 +438,7 @@
                                                 <i class="material-icons" id="curti" href="#">thumb_up</i>
                                                 <i class="material-icons" id="rejeita" href="#">thumb_down</i>
                                                 <i class="material-icons" id="compartilha" href="#">share</i>
+                                                <i class="material-icons" id="comenta" href="#">comment</i>
                                             </div>
                                         </div>
                                         <div class="card-action">
@@ -732,6 +769,9 @@
             $(document).ready(function () {
                 $('.modal').modal();
             });
+              $(document).ready(function(){
+    $('.tooltipped').tooltip();
+  });        
         </script>
 
 </body>

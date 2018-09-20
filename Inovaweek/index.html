@@ -9,13 +9,7 @@
     <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template,">
     <title>Union</title>
     <!-- Favicons-->
-    <link rel="icon" href="images/favicon/7902logo31.ico">
-    <!-- Favicons-->
-    <!-- <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png"> -->
-    <!-- For iPhone -->
-    <!-- <meta name="msapplication-TileColor" content="#00bcd4"> -->
-    <!-- <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png"> -->
-    <!-- For Windows Phone -->
+    <link rel="icon" href="images/favicon/7902logo31.ico">    
     <!-- CORE CSS-->
     <link href="css//materialize.css" type="text/css" rel="stylesheet">
     <link href="css//style.css" type="text/css" rel="stylesheet">
@@ -26,7 +20,6 @@
     <link href="vendors/flag-icon/css/flag-icon.min.css" type="text/css" rel="stylesheet">
     <script src="js/main.js"></script>
 </head>
-
 <body>
     <header id="header" class="page-topbar">
         <!-- NAVBAR RESPONSIVO -->
@@ -131,41 +124,42 @@
     </form>
 </div>    
 </div>
-<!--Inicio do Footer-->
-<!-- <footer class="page-footer gradient-45deg-light-blue-cyan">
+<!-- Inicio do Footer -->
+<footer class="page-footer gradient-45deg-blue-grey-blue">
     <div class="footer-copyright">
         <div class="container">
             <span>Copyright ©
                 <script type="text/javascript">
                     document.write(new Date().getFullYear());
-                </script> <a class="grey-text text-lighten-2" href="http://themeforest.net/user/pixinvent/portfolio?ref=pixinvent"
-                target="_blank">PIXINVENT</a> All rights reserved.</span>
-                <span class="right hide-on-small-only"> Design and Developed by <a class="grey-text text-lighten-2" href="https://pixinvent.com/">PIXINVENT</a></span>
+                </script>
+                <a class="grey-text text-lighten-2" href="#" target="_blank">UNION</a> Todos os direitos
+                reservados.</span>
+                <span class="right hide-on-small-only"> Design e Desnvelvimento feito pela <a class="grey-text text-lighten-2"
+                    href="#">UNION</a></span>
+                </div>
             </div>
-        </div>
-    </footer> -->
-    <!--Final do Footer-->
+        </footer>
+        <!-- Fim do Footer -->
+        <!-- jQuery Library -->
+        <script type="text/javascript" src="vendors/jquery-3.2.1.min.js"></script>
+        <!--materialize js-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <!--scrollbar-->
+        <script type="text/javascript" src="vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+        <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <!--custom-script.js - Add your own theme custom JS-->
+        <script type="text/javascript" src="js/custom-script.js"></script>
+        <script type="text/javascript" src="js/sweetalert.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.modal').modal();
+            });
+            
+            document.querySelector('#btn-cadastrar').onclick = function () {
+                swal("Sucesso!", "Cadastro efetuado com sucesso!", "success");
+            };
+        </script>
+    </body>
     
-    <!-- jQuery Library -->
-    <script type="text/javascript" src="vendors/jquery-3.2.1.min.js"></script>
-    <!--materialize js-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <!--scrollbar-->
-    <script type="text/javascript" src="vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    <!--plugins.js - Some Specific JS codes for Plugin Settings-->
-    <script type="text/javascript" src="js/plugins.js"></script>
-    <!--custom-script.js - Add your own theme custom JS-->
-    <script type="text/javascript" src="js/custom-script.js"></script>
-    <script type="text/javascript" src="js/sweetalert.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.modal').modal();
-        });
-        
-        document.querySelector('#btn-cadastrar').onclick = function () {
-            swal("Sucesso!", "Cadastro efetuado com sucesso!", "success");
-        };
-    </script>
-</body>
-
-</html>
+    </html>
